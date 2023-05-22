@@ -109,7 +109,7 @@ C. **VLAN'ların Oluşturulması ve Portlara VLAN Numaralarının Atanması**
 
 Şekil 7. Yazı İşleri Departmanında VLAN Oluuşturulması
 
-![ML-trunk](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/f9411b17-3276-4176-ab20-0b248893012b)
+![ML-trunk](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/dae44a2d-0895-4d3a-a8db-05a6f3df57d6)
 
 Şekil 8. Multilayer Switch Arayüzlerinde Trunk Modunun Açılması
 
