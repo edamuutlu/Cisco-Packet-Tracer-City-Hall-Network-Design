@@ -94,6 +94,7 @@ Cihazların CLI kısmından hostname ve şifre isimleri sırasıyla cihaz adı v
 ![ssh-ML](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/4081371c-91e0-4497-bc0b-6c442d475775)
 
 Şekil 3 ve 4. Switch ve Multilayer Cihazlarının Yapılandırılması
+
 ![ssh-CR](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/755f586e-4921-4c63-9814-7e3b977b976c)
 
 Şekil 5. Router Cihazının Yapılandırılması
