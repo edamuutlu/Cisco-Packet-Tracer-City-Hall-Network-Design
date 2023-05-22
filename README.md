@@ -322,11 +322,11 @@ K. **Ağ İletişimini Test Etme ve Doğrulama**
 
 
 
-4. *Sonuç ve Tartışma*
+4. **Sonuç ve Tartışma**
 
 Bu çalışmada Router, switch, Access pointer, PC, laptop, tablet, printer ve gerekli sunucular içeren bir geniş alan ağı ve yerel alan ağları gerçekleştirilmiştir. Bu ağ topolojisi gerçeklenmesi sırasında Packet Tracer yazılımı kullanılmış ve gerçek Router, switch programlaması ile özdeş cihaz programlaması yapılmıştır. VLANLAR tanımlanmış bu VLANlar gerekli cihazlara konfigüre edilmiştir. PC’ler için sunucu odası haricindeki departmanlara DHCP havuzları tanımlanmış ve PC’lerin IP’leri aldığı gözlemlenmiştir. DNS sunucu tanımlanmıştır ve DHCP havuzları üzerinden PC’lere dağıtılmıştır. EMAİL sunucu tanımlanmış ve erişim gözlemlenmiştir. Hayali bir geniş ağ oluşturularak ISP tanımlanmıştır. Geniş bir ağda ve yerel bir ağda olması gereken temel cihazlar ve protokoller kullanılmıştır. Hem statik hem de dinamik IP konfigürasyonları eş zamanlı simüle edilmiştir. Simülasyon sonuçları ağda herhangi bir paketin kaynak ile hedef arasında problemsiz ulaşabildiği gösterilmiştir.
 
-5. *Kaynakça*
+5. **Kaynakça**
 
 [1] T. Lammle, “CCNA: Cisco certified network associate study guide”, 5th Edition, SYBEX Press, 2003.
 
