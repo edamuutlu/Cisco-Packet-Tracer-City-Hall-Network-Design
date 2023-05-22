@@ -119,7 +119,7 @@ C. **VLAN'ların Oluşturulması ve Portlara VLAN Numaralarının Atanması**
 
 Şekil 6 ve 7’de her departmandaki switch’e vlan tanımlanması görülmektedir. Bu adımdan sonra Multilayer1 ve 2 de trunk modu açılıp departmanların vlan isimleri ve numaraları atanmaktadır.
 
-D. *Alt Ağlara Bölme ve IP Adresleme İşlemleri*
+D. **Alt Ağlara Bölme ve IP Adresleme İşlemleri**
 
 Ağdaki tüm cihazların, sunucu kökünde bulunan özel DHCP sunucularından dinamik olarak bir IP adresi alması beklenmektedir. Ancak sunucu odasındaki cihazlara statik olarak IP adresi atanmaktadır.  Base Network: 192.168.1.0
 
@@ -165,7 +165,7 @@ Tablo 1. Alt Ağlara Bölme ve IP Adresleme İşlemleri
 
 Tablo 2. Multilayer Switch ve Router Arası IP Adresleme İşlemleri
 
-*Core Router ve ISP’ler Arası IP Adresleme*
+**Core Router ve ISP’ler Arası IP Adresleme**
 
 Public IP adres :
 
