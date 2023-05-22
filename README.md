@@ -123,28 +123,28 @@ D. *Alt Ağlara Bölme ve IP Adresleme İşlemleri*
 
 Ağdaki tüm cihazların, sunucu kökünde bulunan özel DHCP sunucularından dinamik olarak bir IP adresi alması beklenmektedir. Ancak sunucu odasındaki cihazlara statik olarak IP adresi atanmaktadır.  Base Network: 192.168.1.0
 
-*İlk Kat*
+**İlk Kat**
 
 |*Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi*|
 | :-: | :-: | :-: | :-: | :-: |
 |Muhtarlık İşlemleri|192\.168.1.0|255\.255.255.128/25|<p>192\.168.1.1 –</p><p>192\.168.1.126</p>|192\.168.1.127|
 |Yazı İşleri|192\.168.1.128|255\.255.255.128/25|<p>192\.168.1.129 –</p><p>192\.168.1.254</p>|192\.168.1.255|
 
-*İkinci Kat*
+**İkinci Kat**
 
 |*Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi*|
 | :-: | :-: | :-: | :-: | :-: |
 |Kültür İşleri|192\.168.2.0|255\.255.255.128/25|<p>192\.168.2.1 –</p><p>192\.168.2.126</p>|192\.168.2.127|
 |Kentsel Dönüşüm|192\.168.2.128|255\.255.255.128/25|<p>192\.168.2.129 –</p><p>192\.168.2.254</p>|192\.168.2.255|
 
-*Üçüncü Kat*
+**Üçüncü Kat**
 
 |*Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi*|
 | :-: | :-: | :-: | :-: | :-: |
 |Strateji Geliştirme (ARGEM)|192\.168.3.0|255\.255.255.128/25|<p>192\.168.3.1 –</p><p>192\.168.3.126</p>|192\.168.3.127|
 |Temizlik İşleri|192\.168.3.128|255\.255.255.128/25|<p>192\.168.3.129 –</p><p>192\.168.3.254</p>|192\.168.3.255|
 
-*Dördüncü Kat*
+**Dördüncü Kat**
 
 |*Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi*|
 | :-: | :-: | :-: | :-: | :-: |
@@ -153,7 +153,7 @@ Ağdaki tüm cihazların, sunucu kökünde bulunan özel DHCP sunucularından di
 
 Tablo 1. Alt Ağlara Bölme ve IP Adresleme İşlemleri
 
-*Dördüncü Katman Switchleri (Multilayer Switch) ve Core Routerlar Arası IP Adresleme*
+**Dördüncü Katman Switchleri (Multilayer Switch) ve Core Routerlar Arası IP Adresleme**
 
 
 |*Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi*|
