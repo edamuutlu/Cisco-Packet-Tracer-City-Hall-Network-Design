@@ -1,6 +1,6 @@
-*Belediye Binası Ağ Tasarımı*
+**Belediye Binası Ağ Tasarımı**
 
-1. *Proje Tanımı ve Amacı*
+1. **Proje Tanımı ve Amacı**
 
 Bir belediye binasında, 855 personel istihdam edilmektedir. Son zamanlarda genişledikleri için yeni bir binaya taşınmaları gerekmektedir. Bir bina belirlendiği ancak ağı olmadığı için yeni binada tasarlanıp uygulanacak yeni bir ağ hizmetine ihtiyaç duyulmaktadır. Yeni bina dört katlı olacak ve her birinde iki departman olacaktır:
 
@@ -29,7 +29,7 @@ Belediye binasının mevcut iş ihtiyacını karşılayan ve geleceğe yönelik 
 - Multilayer switchler ve core routerlara IP routing (yönlendirme) işlemleri yapılacaktır.
 - Tüm yapılandırmaların beklenildiği gibi çalıştığından emin olmak için iletişimi test edilecektir.
 
-2. *Uygulanan Teknolojiler*
+2. **Uygulanan Teknolojiler**
 
 - Cisco Packet Tracer Kullanarak Bir Ağ Topolojisi Oluşturma.
 - Hiyerarşik Ağ Tasarımı.
@@ -49,19 +49,18 @@ Belediye binasının mevcut iş ihtiyacını karşılayan ve geleceğe yönelik 
 - Ağ İletişimini Test Etme ve Doğrulama. 
 
 
-*Önizleme*
+**Önizleme**
 
-![Onizleme](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/4a2121a3-9616-4a6d-a163-f8495903ddbb)
-
+![Onizleme](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/94ff60ec-f334-4c4a-af91-66f199d6d80c)
 
 Şekil 1. Uygulama Görünümü
 
 
 
-1. *Proje Aşamaları*
+1. **Proje Aşamaları**
 
 
-A. *Doğru Kablolama ile Ağ Cihazlarının Bağlantılandırılması*
+A. **Doğru Kablolama ile Ağ Cihazlarının Bağlantılandırılması**
 
 **Cisco Packet Tracer uygulamasında kullanılan cihazlar:** 
 
@@ -77,7 +76,7 @@ A. *Doğru Kablolama ile Ağ Cihazlarının Bağlantılandırılması*
 - Core router ve multilayer switch arasında copper straight-through tipi kablo kullanılmıştır.
 - Multilayer switch ve departmanlardaki switchler arasında copper cross-over tipi kablo kullanılmıştır.
 
-![Kablolama](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/cfa7e438-a7e6-48c9-a9ab-3129d22e01a2)
+)![Kablolama](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/e6e425ab-f78e-4b0e-9857-6d389cfac3cd)
 
 Şekil 2. Uygulamanın Cihaz ve Kablolama Görünümü
 
@@ -86,28 +85,26 @@ A. *Doğru Kablolama ile Ağ Cihazlarının Bağlantılandırılması*
 
 
 
-B. *Temel Cihaz Ayarlarının Yapılandırılması*
+B. **Temel Cihaz Ayarlarının Yapılandırılması**
 
 ISP’ler, Multilayer switchler ve core routerların AC Power kablosu ilgili porta takılıp kabloların port durumları (port status) aktif edildi. 
 
 Cihazların CLI kısmından hostname ve şifre isimleri sırasıyla cihaz adı ve “cisco” olacak şekilde atandı. 
-
-![ssh-SW](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/35716d22-ef9e-4d8d-8ad7-f949fd1f1773)
-![ssh-ML](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/a3576d69-ed82-4f00-a3c4-fb38219fc2b0)
+![ssh-SW](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/5e35b109-c6b6-436f-a434-d8f4ad1f78c7)
+![ssh-ML](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/4081371c-91e0-4497-bc0b-6c442d475775)
 
 Şekil 3 ve 4. Switch ve Multilayer Cihazlarının Yapılandırılması
-
-![ssh-CR](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/6f26240d-046f-4cf6-b27a-146ca523bc09)
+![ssh-CR](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/755f586e-4921-4c63-9814-7e3b977b976c)
 
 Şekil 5. Router Cihazının Yapılandırılması
 
-C. *VLAN'ların Oluşturulması ve Portlara VLAN Numaralarının Atanması*
+C. **VLAN'ların Oluşturulması ve Portlara VLAN Numaralarının Atanması**
 
-![vlan-mhtrlk](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/6c7dbd2a-e761-414c-8704-18852fa2eb5f)
+![vlan-mhtrlk](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/e776fdab-1345-4128-b2a7-d844f456f280)
 
 Şekil 6. Muhtarlık Departmanında VLAN Oluşturulması
 
-![vlan-yaziisleri](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/7cbfe8b5-bb9c-4a23-ad25-3eccf7521caf)
+![vlan-yaziisleri](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/d70e6ff0-64e4-4845-a992-036d69cec2bd)
 
 Şekil 7. Yazı İşleri Departmanında VLAN Oluuşturulması
 
@@ -115,7 +112,7 @@ C. *VLAN'ların Oluşturulması ve Portlara VLAN Numaralarının Atanması*
 
 Şekil 8. Multilayer Switch Arayüzlerinde Trunk Modunun Açılması
 
-![vlan-ML](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/111052a0-18e6-4325-a646-8a4ddebc2a6a)
+![vlan-ML](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/89240fa1-94c8-431b-b302-dd4c9cb711be)
 
 Şekil 9. Multilayer Switchlerine VLAN Tanımlaması
 
@@ -177,31 +174,29 @@ Public IP adres :
 - 195.136.17.12/30
 
 
-
-![ML1-IP](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/4ede10e5-b9e6-4c8c-9273-9b96e81e80fb)
+![ML1-IP](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/04b6b590-1ff0-4627-9881-c9850f5c56bb)
 
 Şekil 10. Multilayer Switch1’e IP Ataması
 
 Şekil 10’da Multilayer Switch 1’e Tablo 2’deki network adresi 172.16.3.144 olduğu için 172.16.3.145 ip adresi atandığı görülmektedir. Network adresinin bir fazlası şeklinde diğer ip adreslemeler de tamamlanmaktadır.
 
-![ML2-IP](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/3d7c44f8-ee7d-4a01-9d82-5983983bbaaf)
+![ML2-IP](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/987ddfe6-e9ec-4f95-8d58-048ae196c9d6)
 
 Şekil 11. Multilayer Switch2’ye IP Ataması
 
-![CR1-IP](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/7dc5298a-46fe-4963-bd55-d87fb4b73b31)
+![CR1-IP](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/59eb64c9-0dc6-4976-9592-78b1b8b94783)
 
 Şekil 12. Core Router1’e IP Ataması
 
-![CR2-IP](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/1e6903f1-f2c6-4e54-87ce-a42d8ea2afc1)
+![CR2-IP](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/044ea70e-a402-4625-8aa2-8652d2c94f5a)
 
 Şekil 13. Core Router2’ye IP Ataması
 
-![ISP1-IP](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/6bfc346f-0294-4309-85af-726846dadbc6)
+![ISP1-IP](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/8c643553-6ff2-46c2-ac73-b010bd50210a)
 
 Şekil 14. ISP1’e IP Ataması
 
-
-![ISP2-IP](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/bde31ea6-2851-46cf-8e81-f38169dd7e84)
+![ISP2-IP](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/c8cf6a92-9620-4b79-aa49-a1efadeafe71)
 
 Şekil 15. ISP2’ye IP Ataması
 
@@ -214,31 +209,31 @@ Cisco Packet Tracer'da bir ISP simüle etmek için "Cloud" (Bulut) bileşeni kul
 
 
 
-E. *Routing Protokolü Olarak OSPF'nin Yapılandırılması*
+E. **Routing Protokolü Olarak OSPF'nin Yapılandırılması**
 
-![ML2-Routing](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/a7bac537-6873-4baf-9d8e-c78b43fdf7cb)
+![ML2-Routing](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/707e5239-7ad3-482a-b815-c22c692fb2fc)
 
 Şekil 16. Multilayer Switch2 Routing İşlemleri
 
-![ML1-Routing](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/5ca27b8a-8cdb-4f1c-b049-df96a8784502)
+![ML1-Routing](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/6c46c8b6-89e0-4474-88ec-381b242a8b10)
 
 Şekil 17. Multilayer Switch1 Routing İşlemleri
 
-![CR1-Routing](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/a257ddc0-bd72-4c8c-af19-ccf4663e45f5)
+![CR1-Routing](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/7ca20850-2753-4595-8d45-0f2cec1ca752)
 
 Şekil 18. Core Router1 Routing İşlemleri
 
-F. *Sunucu Odasındaki Cihazlara Statik IP Adres Atama*
+F. **Sunucu Odasındaki Cihazlara Statik IP Adres Atama**
 
-![DHCP-IP](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/623356a7-bcde-4aa4-9583-d1fa1f13cd6f)
+![DHCP-IP](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/19f8f37c-fe7a-4672-b3e6-d2af335fe34d)
 
 Şekil 19. DHCP-Server Statik IP Atama İşlemi
 
-![EMAİL-IP](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/ffb0978c-0ec9-44c6-a009-0e2545039b80)
+![EMAİL-IP](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/c6e80af1-f809-4dbb-9cf7-8d1590cde25a)
 
 Şekil 20. Email-Server Statik IP Atama İşlemi
 
-![DNS-IP](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/7e314465-7aee-48ac-ac08-5b5f81351685)
+![DNS-IP](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/0f0d1fcc-5e62-4e8d-9a52-7a7b004901b8)
 
 Şekil 21. DNS-Server Statik IP Atama İşlemi
 
@@ -247,21 +242,21 @@ Sunucu odasındaki cihazlara statik olarak IP atanmaktadır. Sunucu odasında, s
 Alt ağlara bölme işleminde dördüncü kattaki sunucu odasının networkü 192.168.4.128 olarak belirlenmişti. Bu sebeple DHCP-Server, Email-Server ve DNS-Server’a sırasıyla 192.168.4.130, 192.168.4.133, 192.168.4.131 adresleri atanmaktadır. Default gateway adresleri iletişim kurulacak switchin ip adresini belirtmektedir.
 
 
-G. *DHCP Servis Yapılandırılması ve DNS Servis Domain Name Belirleme*
+G. **DHCP Servis Yapılandırılması ve DNS Servis Domain Name Belirleme**
 
-![DHCP-Servis](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/ae292191-284f-4795-b71f-1028879a5695)
+![DHCP-Servis](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/9feaee49-9122-4edb-9bfe-1f1ba42bc802)
 
 Şekil 22. DHCP-Server Servis İşlemleri
 
 Şekil 21’de DHCP Server içinde DHCP servisi aktif edilerek departmanların pool name, default gateway, dns server, başlangıç ip adresi, subnet mask ve o departmanın alabileceği maksimum kullanıcı sayısının girişi yapılmaktadır. Daha sonra her departmandaki cihazların desktop IP Configuration kısmından static olarak seçilen kısmı DHCP olarak seçilerek dinamik IP atamasını gerçekleştirildi.
 
-![DNS-Servis](https://github.com/edamuutlur/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/47d4a075-a944-4a40-b286-f1eda4692149)
+![DNS-Servis](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/964b28fe-1b4c-499b-8fb6-be9187fcf0f4)
 
 Şekil 23. DNS-Serverda DNS Servisini Aktif Etme
 
-H. *Multilayer Switchler Üzerindeki Inter-VLAN Yönlendirmenin Yapılandırılması (Anahtar Sanal Arayüzü)*
+H. **Multilayer Switchler Üzerindeki Inter-VLAN Yönlendirmenin Yapılandırılması (Anahtar Sanal Arayüzü)**
 
-![ML-InterVlan](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/8b0cbfde-b421-4af4-af05-a4865e677c77)
+![ML-InterVlan](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/02070b30-98da-423f-bf29-768048b6dd68)
 
 Şekil 24. Multilayer Switch1 Inter-VLAN Yönlendirmenin Yapılandırılması
 
@@ -269,49 +264,49 @@ Inter VLAN yönlendirmesi, farklı VLAN'larda bulunan cihazlar arasında iletiş
 
 Inter VLAN yönlendirmesi, ağdaki Multilayer Switch1 tarafından gerçekleştirilmektedir. Bu cihazlar, farklı VLAN'lar arasında trafiği yönlendirerek cihazların birbirleriyle iletişim kurmasını sağlar. Bu işlem, paketleri bir VLAN'dan diğerine taşıyarak ve VLAN taglerını kullanarak gerçekleştirilir.
 
-İ. *WLAN veya Kablosuz Ağın Yapılandırılması* 
+İ. **WLAN veya Kablosuz Ağın Yapılandırılması**
 
-![AP-Ağ](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/1e9307d3-9caf-487c-a038-cc158d879da5)
+![AP-Ağ](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/5f5b3431-c1b2-4a5c-94ca-f030476cf87b)
 
 Şekil 25. Accesspointer için Kablosuz Ağı İsimlendirme ve Şifreleme
 
-![Wifi-Connect](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/860222ab-2f9b-4035-bbb7-067e12deb42f)
+![Wifi-Connect](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/5f62ffa8-0a34-435d-8362-a569a333a4d7)
 
 Şekil 26. Laptopu Kablosuz Ağa Bağlama
 
 WPA2-PSK (Wi-Fi Protected Access 2 with Pre-Shared Key), Wi-Fi ağlarının güvenliğini sağlamak için kullanılan bir şifreleme protokolüdür. WPA2-PSK, ağ trafiğini şifreleyerek, ağa yetkisiz erişimi önlemeye yardımcı olur.
 
-J. *PAT (Port Address Translation) Olarak NAT Overload'un Yapılandırılması*
+J. **PAT (Port Address Translation) Olarak NAT Overload'un Yapılandırılması**
 
-![CR1-PAT](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/4d6e3117-8bb4-46e7-b3bc-d79dccf78709)
+![CR1-PAT](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/571b8ec1-65d1-450c-933b-7385ba5e535a)
 
 Şekil 27. Core Router1 PAT İşlemleri
 
-![CR2-PAT](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/6d357047-a4b7-40ba-9d3a-91cbf72c4e14)
+![CR2-PAT](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/4525a014-407d-48c7-b94f-772b06fe51ea)
 
 Şekil 28. Core Router2 PAT İşlemleri
 
 PAT yapılandırması için "ip nat inside" ve "ip nat outside" komutlarını kullanarak iç ve dış arayüzleri belirttik. Bu yapılandırma, iç ağdaki bir dizi IP adresini, tek bir IP adresi ve port numarası kombinasyonuyla dış ağa çevirir. Bu sayede iç ağdaki birçok cihazın aynı anda internete erişimi sağlanmış olur.
 
-K. *Ağ İletişimini Test Etme ve Doğrulama*
+K. **Ağ İletişimini Test Etme ve Doğrulama**
 
-![ISP1-Ping](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/2a567187-c4c9-4c2d-86be-0f021ef6c02c)
+![ISP1-Ping](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/ef1f277b-8e51-4250-9c03-b50153580720)
 
 Şekil 29.1. ISP1’den Ping Atma Örneği
 
-![ISP2-Ping](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/247bbcf7-c616-41e6-b300-cb2462e7e3a3)
+![ISP2-Ping](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/3bb1a605-74ce-454f-98ee-1b8a5a5499b6)
 
 Şekil 29.2. ISP2’den Ping Atma Örneği
 
-![Deparrtman-Ping](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/8bcfe636-a78b-4224-abec-f8f066273cb7)
+![Deparrtman-Ping](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/e77553d8-a0ee-49ae-9342-4a0161e79bbd)
 
 Şekil 30. ARGEM Departmanından Muhtarlık Departmanına Ping Atma
 
 
 
 
-![Email-1](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/496e163b-eb48-4adf-b9d5-aa1ff290f149)
-![Email-2](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/72696558/28681a76-1354-4ab2-9afb-be09d02ad450)
+![Email-1](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/dacdb42b-c80b-4aa3-b216-256b4b2b17d4)
+![Email-2](https://github.com/edamuutlu/Cisco-Packet-Tracer-City-Hall-Network-Design/assets/112180102/973691bd-5778-46a7-ad7c-f6dedfc730d6)
 
 Şekil 31.1 ve 32.2. Başarılı Bir Email Gönderim Örneği
 
