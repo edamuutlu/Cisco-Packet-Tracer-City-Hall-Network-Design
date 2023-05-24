@@ -125,28 +125,28 @@ Ağdaki tüm cihazların, sunucu kökünde bulunan özel DHCP sunucularından di
 
 **İlk Kat**
 
-|*Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi*|
+|**Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi**|
 | :-: | :-: | :-: | :-: | :-: |
 |Muhtarlık İşlemleri|192\.168.1.0|255\.255.255.128/25|<p>192\.168.1.1 –</p><p>192\.168.1.126</p>|192\.168.1.127|
 |Yazı İşleri|192\.168.1.128|255\.255.255.128/25|<p>192\.168.1.129 –</p><p>192\.168.1.254</p>|192\.168.1.255|
 
 **İkinci Kat**
 
-|*Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi*|
+|**Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi**|
 | :-: | :-: | :-: | :-: | :-: |
 |Kültür İşleri|192\.168.2.0|255\.255.255.128/25|<p>192\.168.2.1 –</p><p>192\.168.2.126</p>|192\.168.2.127|
 |Kentsel Dönüşüm|192\.168.2.128|255\.255.255.128/25|<p>192\.168.2.129 –</p><p>192\.168.2.254</p>|192\.168.2.255|
 
 **Üçüncü Kat**
 
-|*Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi*|
+|**Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi**|
 | :-: | :-: | :-: | :-: | :-: |
 |Strateji Geliştirme (ARGEM)|192\.168.3.0|255\.255.255.128/25|<p>192\.168.3.1 –</p><p>192\.168.3.126</p>|192\.168.3.127|
 |Temizlik İşleri|192\.168.3.128|255\.255.255.128/25|<p>192\.168.3.129 –</p><p>192\.168.3.254</p>|192\.168.3.255|
 
 **Dördüncü Kat**
 
-|*Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi*|
+|**Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi**|
 | :-: | :-: | :-: | :-: | :-: |
 |Bilgi İşlemleri|192\.168.4.0|255\.255.255.128/25|<p>192\.168.4.1 –</p><p>192\.168.4.126</p>|192\.168.4.127|
 |Sunucu Odası |192\.168.4.128|255\.255.255.240/28|<p>192\.168.4.129 –</p><p>192\.168.4.145</p>|192\.168.4.146|
@@ -333,4 +333,3 @@ Bu çalışmada Router, switch, Access pointer, PC, laptop, tablet, printer ve g
 [2] D. Barnes, B. Sakandar, “Cisco LAN Switching Fundamentals”, CISCO Press.
 
 [3] <https://www.netacad.com/courses/packet-tracer> (Erişim zamanı: 10.05.2023).
-20
