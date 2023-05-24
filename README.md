@@ -125,28 +125,28 @@ Ağdaki tüm cihazların, sunucu kökünde bulunan özel DHCP sunucularından di
 
 **İlk Kat**
 
-|**Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi**|
+|**Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi|
 | :-: | :-: | :-: | :-: | :-: |
 |Muhtarlık İşlemleri|192\.168.1.0|255\.255.255.128/25|<p>192\.168.1.1 –</p><p>192\.168.1.126</p>|192\.168.1.127|
 |Yazı İşleri|192\.168.1.128|255\.255.255.128/25|<p>192\.168.1.129 –</p><p>192\.168.1.254</p>|192\.168.1.255|
 
 **İkinci Kat**
 
-|**Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi**|
+|**Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi|
 | :-: | :-: | :-: | :-: | :-: |
 |Kültür İşleri|192\.168.2.0|255\.255.255.128/25|<p>192\.168.2.1 –</p><p>192\.168.2.126</p>|192\.168.2.127|
 |Kentsel Dönüşüm|192\.168.2.128|255\.255.255.128/25|<p>192\.168.2.129 –</p><p>192\.168.2.254</p>|192\.168.2.255|
 
 **Üçüncü Kat**
 
-|**Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi**|
+|**Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi|
 | :-: | :-: | :-: | :-: | :-: |
 |Strateji Geliştirme (ARGEM)|192\.168.3.0|255\.255.255.128/25|<p>192\.168.3.1 –</p><p>192\.168.3.126</p>|192\.168.3.127|
 |Temizlik İşleri|192\.168.3.128|255\.255.255.128/25|<p>192\.168.3.129 –</p><p>192\.168.3.254</p>|192\.168.3.255|
 
 **Dördüncü Kat**
 
-|**Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi**|
+|**Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi|
 | :-: | :-: | :-: | :-: | :-: |
 |Bilgi İşlemleri|192\.168.4.0|255\.255.255.128/25|<p>192\.168.4.1 –</p><p>192\.168.4.126</p>|192\.168.4.127|
 |Sunucu Odası |192\.168.4.128|255\.255.255.240/28|<p>192\.168.4.129 –</p><p>192\.168.4.145</p>|192\.168.4.146|
@@ -156,7 +156,7 @@ Tablo 1. Alt Ağlara Bölme ve IP Adresleme İşlemleri
 **Dördüncü Katman Switchleri (Multilayer Switch) ve Core Routerlar Arası IP Adresleme**
 
 
-|*Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi*|
+|**Müdürlükler|Network Adresi|Subnet Mask|Host Adres Aralığı|Broadcast Adresi|
 | :-: | :-: | :-: | :-: | :-: |
 |R1 – MLSW1|172\.16.3.144|255\.255.255.252|<p>172\.16.3.145 –</p><p>172\.16.3.146</p>|172\.16.3.147|
 |R1 – MLSW2|172\.16.3.148|255\.255.255.252|<p>172\.16.3.149 –</p><p>172\.16.3.150</p>|172\.16.3.151|
