@@ -2,7 +2,7 @@
 
 1. **Proje Tanımı ve Amacı**
 
-Bir belediye binasında, 855 personel istihdam edilmektedir. Son zamanlarda genişledikleri için yeni bir binaya taşınmaları gerekmektedir. Bir bina belirlendiği ancak ağı olmadığı için yeni binada tasarlanıp uygulanacak yeni bir ağ hizmetine ihtiyaç duyulmaktadır. Yeni bina dört katlı olacak ve her birinde iki departman olacaktır:
+Bir belediye binasında, 855 personel istihdam edilmektedir. Son zamanlarda genişledikleri için yeni bir binaya taşınmaları gerekmektedir. Bir bina belirlendiği ancak ağı olmadığı için uygulanacak yeni bir ağ hizmetine ihtiyaç duyulmaktadır. Yeni bina dört katlı olacak ve her birinde iki departman olacaktır:
 
 1. Birinci kat - (Muhtarlık İşleri-120 kullanıcı beklenmektedir, Yazı İşleri-120 kullanıcı beklenmektedir).
 1. İkinci kat - (Kültür İşleri-120 kullanıcı beklenmektedir, Kentsel Dönüşüm-120 kullanıcı beklenmektedir).
